@@ -13,7 +13,8 @@
     list-style: none;
 }
 
-/* Header */
+/* Header
+-------------------------*/
 header{
     top: 0;
     left: 0;
@@ -70,7 +71,8 @@ header .contact:hover {
     box-shadow: 0 0 25px #3891A6;
 }
 
-/* Home page */
+/* Home page 
+------------------------*/
 .home{
     width: 100%;
     min-height: 100vh;
@@ -119,3 +121,34 @@ header .contact:hover {
     border: 2px solid #131b23;
 }
 
+.img-container img{
+    border-radius: 50%;
+    width: 550px;
+}
+
+/* Selecting social-media images */
+[class$="media"] img {
+    height: 40px;
+}
+
+.social-media{
+    position: absolute;
+    left: 0;
+    top: 70%;
+    transform: translateY(-50%);
+    padding: 5px 10px;
+}
+
+.social-media ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-media ul li{
+    transition: 0.2s ease;
+}
+
+.social-media ul li:hover{
+    transform: scale(1.1);
+}
