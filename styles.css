@@ -1,3 +1,4 @@
+/* font specification */
 @font-face{
     src: url(fonts/Poppins-Regular.ttf);
     font-family: Poppins;
@@ -12,3 +13,58 @@
     list-style: none;
 }
 
+/* header */
+header{
+    top: 0;
+    left: 0;
+    padding: 35px 12%;
+    background: #131b23;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+header .logo img{
+    height: 40px;
+}
+
+header .logo{
+    transition: 0.3s ease;
+}
+
+header .logo:hover {
+    transform: scale(1.05);
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #E4DFDA;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.5s ease;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #3891A6;
+    border-bottom: 3px solid #3891A6;
+}
+
+header .contact{
+    padding: 10px 28px;
+    background-color: #E4DFDA;
+    color: #131b23;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+header .contact:hover {
+    background-color: #3891A6;
+    box-shadow: 0 0 25px #3891A6;
+}
