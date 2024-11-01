@@ -71,9 +71,22 @@ header .contact:hover {
     box-shadow: 0 0 25px #3891A6;
 }
 
+/* For smaller screens */
+@media (max-width: 768px){
+    header{
+        padding: 20px 5%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /* Home page 
 ------------------------*/
-
 .home{
     width: 100%;
     min-height: 100vh;
@@ -81,7 +94,7 @@ header .contact:hover {
     display: flex;
     align-items: center;
     gap: 7rem;
-    padding: 30px 12% 0;
+    padding: 50px 12%;
 }
 
 .home-content{
@@ -139,7 +152,7 @@ header .contact:hover {
     top: 70%;
     transform: translateY(-50%);
     padding: 5px 10px;
-    background-color:#3891A6;
+    background-color:#3892a69e;
     border-radius: 0 15px 15px 0; 
     transition: background-color 0.3s ease, border 0.3s ease;
 }
@@ -161,6 +174,22 @@ header .contact:hover {
 .social-media:hover {
     background-color: #E4DFDA;
     border: 1px solid black;
+}
+
+/* For smaller screens */
+@media (max-width: 768px){
+    .home{
+        text-align: center;
+        padding: 20px;
+        flex-direction: column;
+        gap: 4rem;
+        padding: 10%;
+    }
+
+    .img-container img{
+        width: 60%;
+
+    }
 }
 
 /* Footer 
