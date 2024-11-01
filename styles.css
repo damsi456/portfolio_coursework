@@ -126,7 +126,7 @@ header .contact:hover {
     width: 550px;
 }
 
-/* Selecting social-media images */
+/* Selecting social-media images both footer and home*/
 [class$="media"] img {
     height: 40px;
 }
@@ -153,4 +153,26 @@ header .contact:hover {
     transform: scale(1.1);
 }
 
-/* Footer */
+/* Footer 
+----------------------*/
+footer{
+    background-color: #131b23;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links{
+    margin-bottom: 15px;
+}
+
+.footer-links a{
+    color: #3891A6;
+    margin: 0 10px;
+}
+
+.footer-social-media{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
