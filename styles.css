@@ -152,7 +152,7 @@ header .contact:hover {
     top: 70%;
     transform: translateY(-50%);
     padding: 5px 10px;
-    background-color:#3892a69e;
+    background-color:#3892a6;
     border-radius: 0 15px 15px 0; 
     transition: background-color 0.3s ease, border 0.3s ease;
 }
