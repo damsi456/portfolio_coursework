@@ -188,9 +188,78 @@ header .contact:hover {
 
     .img-container img{
         width: 60%;
-
     }
 }
+
+/* About page 
+------------------------*/
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 50px 12%;
+    background-color: #E4DFDA;
+    color: #333;
+}
+
+.about-content{
+    max-width: 60%;
+}
+
+.about-content > h2{
+    text-align: left;
+    font-size: 42px;
+}
+
+.about-content > h2 span, 
+.skills > h3 span{
+    color: #3891A6;
+}
+
+.about-content p{
+    font-size: 18px;
+}
+
+.about-content p span{
+    font-weight: 900;
+}
+
+.about-content p:first-of-type{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about-content p:last-of-type{
+    margin-bottom: 30px;
+}
+
+.skills > h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.skills > .skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills > .skills-container > .skill{
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #3891A6;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.skills >.skills-container >.skill:hover{
+    background-color: #2b6f82;
+}
+
+
 
 /* Footer 
 ----------------------*/
