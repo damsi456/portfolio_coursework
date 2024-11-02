@@ -198,7 +198,7 @@ header .contact:hover {
     justify-content: center;
     align-items: center;
     gap: 10%;
-    padding: 50px 12%;
+    padding: 5% 12%;
     background-color: #E4DFDA;
     color: #333;
 }
@@ -258,8 +258,6 @@ header .contact:hover {
 .skills >.skills-container >.skill:hover{
     background-color: #2b6f82;
 }
-
-
 
 /* Footer 
 ----------------------*/
