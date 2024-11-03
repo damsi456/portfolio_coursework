@@ -15,7 +15,7 @@
 
 /* Header
 -------------------------*/
-header{
+body > header{
     top: 0;
     left: 0;
     padding: 35px 12%;
@@ -26,15 +26,15 @@ header{
     z-index: 100;
 }
 
-header .logo img{
+body > header .logo img{
     height: 40px;
 }
 
-header .logo{
+body > header .logo{
     transition: 0.3s ease;
 }
 
-header .logo:hover {
+body > header .logo:hover {
     transform: scale(1.05);
 }
 
@@ -53,7 +53,7 @@ header .logo:hover {
     border-bottom: 3px solid #3891A6;
 }
 
-header .contact{
+body > header .contact{
     padding: 10px 28px;
     background-color: #E4DFDA;
     color: #131b23;
@@ -66,14 +66,14 @@ header .contact{
 }
 
 /* Contact Button Hover */
-header .contact:hover {
+body > header .contact:hover {
     background-color: #3891A6;
     box-shadow: 0 0 25px #3891A6;
 }
 
 /* For smaller screens */
 @media (max-width: 768px){
-    header{
+    body > header{
         padding: 20px 5%;
         flex-direction: column;
         gap: 20px;
@@ -261,6 +261,16 @@ header .contact:hover {
 
 /* Pojects Page 
 ----------------------*/
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5% 12%;
+    background-color: #E4DFDA;
+    color: #333;
+}
+
 .projects h1{
     font-size: 42px;
 }
@@ -269,9 +279,37 @@ header .contact:hover {
     color: #3891A6;
 }
 
+.projects .intro p{
+    margin: 15px 0 20px;
+    font-size: 18px;
+}
+
+.projects .post{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    padding: 30px 20px;
+    margin-bottom: 5%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.137);
+}
+.projects .post header h2{
+    font-size: 25px;
+}
+
+.projects .post header p{
+    font-style: italic;
+}
+
+.projects .post > p:not(.projects .post header p) {
+    margin-top: 20px;
+}
+
 /* Footer 
 ----------------------*/
-footer{
+body > footer{
     background-color: #131b23;
     color: white;
     padding: 20px;
