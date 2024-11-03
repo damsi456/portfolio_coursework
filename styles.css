@@ -259,6 +259,16 @@ header .contact:hover {
     background-color: #2b6f82;
 }
 
+/* Pojects Page 
+----------------------*/
+.projects h1{
+    font-size: 42px;
+}
+
+.projects h1 span{
+    color: #3891A6;
+}
+
 /* Footer 
 ----------------------*/
 footer{
