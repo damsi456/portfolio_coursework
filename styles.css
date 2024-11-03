@@ -136,7 +136,7 @@ body > header .contact:hover {
     border: 2px solid #131b23;
 }
 
-.img-container img{
+.home .img-container img{
     border-radius: 50%;
     width: 550px;
 }
@@ -186,7 +186,7 @@ body > header .contact:hover {
         padding: 10%;
     }
 
-    .img-container img{
+    .home .img-container img{
         width: 60%;
     }
 }
@@ -299,7 +299,7 @@ body > header .contact:hover {
 .projects .post{
     display: flex;
     justify-content: center;
-    align-items:flex-start;
+    align-items: flex-start;
     flex-direction: column;
     padding: 30px 20px;
     margin-bottom: 5%;
@@ -319,11 +319,28 @@ body > header .contact:hover {
     margin-top: 20px;
 }
 
+.projects .post .img-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin-top: 15px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners to match other elements */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.projects .post img{
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
 .projects .post a{
     color:#3891A6;
     text-decoration: underline;
 }
 
+/* Links' styles */
 .projects .post a:hover{
     color: #235a69;
 }
