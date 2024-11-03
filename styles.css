@@ -208,7 +208,6 @@ body > header .contact:hover {
 }
 
 .about-content > h2{
-    text-align: left;
     font-size: 42px;
 }
 
@@ -257,6 +256,17 @@ body > header .contact:hover {
 
 .skills >.skills-container >.skill:hover{
     background-color: #2b6f82;
+}
+
+@media (max-width: 768px) {
+    .about{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skills > .skills-container{
+        justify-content: center;
+    }
 }
 
 /* Pojects Page 
