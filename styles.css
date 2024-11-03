@@ -138,7 +138,7 @@ body > header .contact:hover {
 
 .home .img-container img{
     border-radius: 50%;
-    width: 550px;
+    width: 100%;
 }
 
 /* Selecting social-media images both footer and home*/
