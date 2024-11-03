@@ -261,6 +261,17 @@ body > header .contact:hover {
 
 /* Pojects Page 
 ----------------------*/
+.projects .post:first-of-type::before {
+    content: "Featured Project";
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3891A6;
+    background-color: #e4dfda;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
 .projects{
     display: flex;
     justify-content: center;
@@ -303,7 +314,7 @@ body > header .contact:hover {
     font-style: italic;
 }
 
-.projects .post > p:not(.projects .post header p) {
+.projects .post > p, .projects footer{
     margin-top: 20px;
 }
 
