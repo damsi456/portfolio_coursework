@@ -261,6 +261,7 @@ body > header .contact:hover {
 
 /* Pojects Page 
 ----------------------*/
+/* Featured Project */
 .projects .post:first-of-type::before {
     content: "Featured Project";
     display: block;
@@ -316,6 +317,15 @@ body > header .contact:hover {
 
 .projects .post > p, .projects footer{
     margin-top: 20px;
+}
+
+.projects .post a{
+    color:#3891A6;
+    text-decoration: underline;
+}
+
+.projects .post a:hover{
+    color: #235a69;
 }
 
 /* Footer 
