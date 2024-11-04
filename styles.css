@@ -258,6 +258,7 @@ body > header .contact:hover {
     background-color: #2b6f82;
 }
 
+/* For smaller screens */
 @media (max-width: 768px) {
     .about{
         flex-direction: column;
@@ -353,6 +354,7 @@ body > header .contact:hover {
     color: #235a69;
 }
 
+/* For smaller screens */
 @media (max-width: 768px){
     .projects .post{
         max-width: 100%;
@@ -430,6 +432,23 @@ body > header .contact:hover {
 
 .contact-form input[type="submit"]:hover{
     background-color: #2b6f82;
+}
+
+/* For smaller screens */
+@media (max-width: 768px){
+    .contact{
+        padding: 5% 2%;
+    }
+
+    .contact-text h1{
+        font-size: 32px;
+    }
+
+    .contact-text p{
+        font-size: 16px;
+    }
+
+    
 }
 
 /* Footer 
