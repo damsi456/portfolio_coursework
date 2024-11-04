@@ -324,6 +324,7 @@ body > header .contact:hover {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.137);
 }
+
 .projects .post header h2{
     font-size: 25px;
 }
@@ -419,6 +420,11 @@ body > header .contact:hover {
     outline: none;
 }
 
+.contact-form input:invalid,
+.contact-form textarea:invalid {
+    border-color: red;
+}
+
 .contact-form input[type="submit"]{
     background-color: #3891A6;
     color: #fff;
@@ -447,8 +453,6 @@ body > header .contact:hover {
     .contact-text p{
         font-size: 16px;
     }
-
-    
 }
 
 /* Footer 
