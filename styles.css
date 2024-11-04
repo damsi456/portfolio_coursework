@@ -152,9 +152,8 @@ body > header .contact:hover {
     top: 70%;
     transform: translateY(-50%);
     padding: 5px 10px;
-    background-color:#3892a6;
-    border-radius: 0 15px 15px 0; 
-    transition: background-color 0.3s ease, border 0.3s ease;
+    background: linear-gradient(180deg, #3891A6, #E4DFDA);
+    border-radius: 0 15px 15px 0;
 }
 
 .social-media ul{
@@ -169,11 +168,6 @@ body > header .contact:hover {
 
 .social-media ul li:hover{
     transform: scale(1.1);
-}
-
-.social-media:hover {
-    background-color: #E4DFDA;
-    border: 1px solid black;
 }
 
 /* For smaller screens */
