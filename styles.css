@@ -38,6 +38,7 @@ body > header .logo:hover {
     transform: scale(1.05);
 }
 
+/* Navbar */
 .navbar a{
     font-size: 18px;
     color: #E4DFDA;
@@ -141,11 +142,12 @@ body > header .contact:hover {
     width: 100%;
 }
 
-/* Selecting social-media images both footer and home*/
+/* Selecting social-media images both footer and home */
 [class$="media"] img {
     height: 40px;
 }
 
+/* Social Media Links */
 .social-media{
     position: absolute;
     left: 0;
@@ -227,6 +229,7 @@ body > header .contact:hover {
     margin-bottom: 30px;
 }
 
+/* Skills Section */
 .skills > h3{
     font-size: 25px;
     margin-bottom: 15px;
