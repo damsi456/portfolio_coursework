@@ -359,6 +359,36 @@ body > header .contact:hover {
     }
 }
 
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5% 12%;
+    background-color: #E4DFDA;
+    color: #333;
+}
+
+.contact-text h1{
+    font-size: 42px;
+}
+
+.contact-text h1 span{
+    color: #3891A6;
+}
+
+.contact-text p{
+    margin: 15px 0 20px;
+    font-size: 18px;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
 /* Footer 
 ----------------------*/
 body > footer{
